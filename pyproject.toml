@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "kaggle-intro-to-ml"
+name = "intro-to-ml"
 version = "0.1.0"
 description = "The Kaggle Intro to Machine Learning Tutorial found under https://www.kaggle.com/learn/intro-to-machine-learning"
 authors = ["René Gentzen <renegentzen@yahoo.de>"]
@@ -7,7 +7,7 @@ readme = "README.md"
 homepage = "https://github.com/Resteklicken/kaggle-intro-to-ml"
 repository = "https://github.com/Resteklicken/kaggle-intro-to-ml"
 keywords = ["machine learning", "ml"]
-packages = [{include = "intro_to_ml"}]
+packages = [{include = "intro_to_ml", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
