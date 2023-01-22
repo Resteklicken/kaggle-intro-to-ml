@@ -12,7 +12,7 @@ packages = [{include = "intro_to_ml", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^1.5.3"
-kaggle = "^1.5.12"
+scikit-learn = "^1.2.0"
 
 
 [build-system]
@@ -21,3 +21,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 intro = "intro_to_ml.intro:main"
+basic_data_exploration = "intro_to_ml.basic_data_exploration:main"
+first_ml_model = "intro_to_ml.first_ml_model:main"
