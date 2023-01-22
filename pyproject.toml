@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kaggle-intro-to-ml"
+version = "0.1.0"
+description = "The Kaggle Intro to Machine Learning Tutorial found under https://www.kaggle.com/learn/intro-to-machine-learning"
+authors = ["René Gentzen <gentzenrene@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/<your-username>/hypermodern-python"
+repository = "https://github.com/<your-username>/hypermodern-python"
+keywords = ["hypermodern"]
+packages = [{include = "intro_to_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
