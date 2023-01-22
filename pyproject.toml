@@ -11,8 +11,13 @@ packages = [{include = "intro_to_ml", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^1.5.3"
+kaggle = "^1.5.12"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+intro = "intro_to_ml.intro:main"
